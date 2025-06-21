@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
-from model import Generator  # Your class from model.py
+from model import Generator  
 from torch.autograd import Variable
 
 # Load generator model

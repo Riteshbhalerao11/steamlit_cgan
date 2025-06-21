@@ -41,4 +41,4 @@ if st.button("Generate"):
     cols = st.columns(5)
     for i, col in enumerate(cols):
         with col:
-            st.image(images[i], caption=f"Sample {i+1}", use_column_width=True)
+            st.image(images[i], caption=f"Sample {i+1}", use_container_width=True)
